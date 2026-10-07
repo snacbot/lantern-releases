@@ -62,7 +62,7 @@ continued development. Tips are voluntary.
 
 [Leave a tip on Buy Me a Coffee](https://buymeacoffee.com/khaosstudios)
 
-Both apps' **Support Lantern** buttons open this section.
+Both apps include a **Buy Me a Coffee** button in Settings that opens the tip page.
 
 ## Local network and privacy
 
