@@ -1,6 +1,6 @@
 # Lantern
 
-**Built by Khaos Studios**
+**Built by [Khaos Studios](https://khaosstudio.com/)**
 
 Comfortable screen brightness across your Windows PC and Mac. Lantern lives in
 the system tray or menu bar, with controls for individual displays, each computer,
@@ -50,7 +50,7 @@ Monitor power behavior varies by hardware.
 
 ## Updates
 
-The Mac app includes Sparkle update support with automatic checks, optional
+The Mac app includes Sparkle update support with automatic checks every 15 minutes while running, optional
 automatic installation, and a manual **Check for Updates…** button. Public
 updates will become available after the first signed release and update feed are
 published. The Windows app links to this official release page for downloads.
