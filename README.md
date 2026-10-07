@@ -60,9 +60,9 @@ published. The Windows app links to this official release page for downloads.
 Enjoy using Lantern? An optional tip is a way to thank **Khaos Studios** and support
 continued development. Tips are voluntary.
 
-[Leave a tip on Buy Me a Coffee](https://buymeacoffee.com/khaosstudios)
+[Buy Us a Coffee](https://buymeacoffee.com/khaosstudios)
 
-Both apps include a **Buy Me a Coffee** button in Settings that opens the tip page.
+Both apps include a **Buy Us a Coffee** button in Settings that opens the tip page.
 
 ## Local network and privacy
 
