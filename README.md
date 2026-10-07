@@ -60,9 +60,9 @@ published. The Windows app links to this official release page for downloads.
 Enjoy using Lantern? An optional tip is a way to thank **Khaos Studios** and support
 continued development. Tips are voluntary.
 
-**The tip link is being set up.** It will appear here when the studio's payment
-page is ready. Both apps link to this section, so the support destination can be
-updated without changing the apps.
+[Leave a tip on Buy Me a Coffee](https://buymeacoffee.com/khaosstudios)
+
+Both apps' **Support Lantern** buttons open this section.
 
 ## Local network and privacy
 
@@ -71,8 +71,8 @@ your local network. The current native network protocol is unauthenticated and
 intended for trusted networks. Do not expose it directly to the internet.
 
 Automatic Mac update checks contact the public GitHub release feed and download
-servers. Sparkle system profiling is disabled. Tip payments will take place on
-the chosen provider's website; Lantern does not handle card details.
+servers. Sparkle system profiling is disabled. Tip payments take place on
+Buy Me a Coffee's website; Lantern does not handle card details.
 
 ## Reporting a problem
 
