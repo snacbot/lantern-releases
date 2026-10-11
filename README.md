@@ -11,8 +11,10 @@ and all connected computers on your local network.
 
 ## Downloads
 
-Public installers are being prepared. No public app binaries have been released yet.
-When available, official downloads will appear on the
+Lantern 0.1.1 for Windows is available as an
+[installer](https://github.com/snacbot/lantern-releases/releases/download/v0.1.1/Lantern-0.1.1-setup.exe)
+or [portable download](https://github.com/snacbot/lantern-releases/releases/download/v0.1.1/Lantern-0.1.1-portable.zip).
+Mac public installers are still being prepared. Official downloads appear on the
 [Releases page](https://github.com/snacbot/lantern-releases/releases).
 
 | App | Platform | Release format |
@@ -53,7 +55,12 @@ Monitor power behavior varies by hardware.
 The Mac app includes Sparkle update support with automatic checks every 15 minutes while running, optional
 automatic installation, and a manual **Check for Updates…** button. Public
 updates will become available after the first signed release and update feed are
-published. The Windows app links to this official release page for downloads.
+published. The Windows app checks official releases manually or automatically every 15 minutes
+while running, with an option to disable automatic checks. Windows supports optional automatic downloads and installation, plus a manual
+**Install update** button. Updates verify signed release metadata and file checksums,
+preserve settings, and restart the app. Signed Windows update assets are included
+in Windows releases starting with 0.1.1. Enable automatic installation in Settings
+to receive updates while Lantern is running.
 
 ## Support Lantern
 
