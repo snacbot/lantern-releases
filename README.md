@@ -99,3 +99,13 @@ monitor model, and cable/dock or DisplayLink setup. Review screenshots and logs
 for private computer names and addresses before sharing them publicly.
 
 Please do not post payment details, passwords, or signing credentials in an issue.
+
+## Upcoming installation reports
+
+Future Mac and Windows releases will offer a separate, optional first-launch
+report to Khaos Studios’ Discord channel. With explicit consent, it includes the
+computer name, approximate state/country, platform, app version and random
+installation ID (the PostHog distinct ID when available). No city, coordinates,
+IP address or LAN node identifier is sent to Discord. Declining sends no report.
+Existing installations upgrading to this feature may also be reported once.
+Current published installers do not contain this feature.
