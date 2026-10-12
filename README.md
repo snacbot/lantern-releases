@@ -11,7 +11,7 @@ and all connected computers on your local network.
 
 ## Downloads
 
-Lantern 0.1.1 for Windows is available as an
+Lantern 0.1.4 for Windows is available as an
 [installer](https://khaosstudio.com/lantern/download/Lantern-setup.exe).
 Lantern 0.1.5 for Mac is available as a signed, notarized
 [DMG preview](https://khaosstudio.com/lantern/download/Lantern.dmg).
@@ -60,10 +60,8 @@ opt-outs and skipped versions are cleared when 0.1.5 starts. A dedicated Mac
 feed keeps Windows releases independent. The public Mac preview feed is live;
 a new release is installed only when it has a higher build number.
 
-The currently published Windows 0.1.1 has optional automatic checks and
-installation, plus a manual **Install update** button. Enable automatic
-installation in its Settings to receive updates while running. Windows 0.1.2
-introduces required automatic updates, but is not yet a published Windows release.
+Windows 0.1.4 requires automatic checks and installation while running. Older
+releases may need their automatic update settings enabled to receive this update.
 Both platforms verify signed update assets, preserve settings and restart to
 apply updates. Protected installation folders may require system authorization.
 
@@ -102,10 +100,10 @@ Please do not post payment details, passwords, or signing credentials in an issu
 
 ## Upcoming installation reports
 
-Future Mac and Windows releases will offer a separate, optional first-launch
-report to Khaos Studios’ Discord channel. With explicit consent, it includes the
+Future Mac and Windows releases will automatically send a one-time installation
+report to Khaos Studios’ Discord channel, separately from anonymous usage analytics. It includes the
 computer name, approximate state/country, platform, app version and random
 installation ID (the PostHog distinct ID when available). No city, coordinates,
-IP address or LAN node identifier is sent to Discord. Declining sends no report.
+IP address or LAN node identifier is sent to Discord. No first-launch prompt is shown.
 Existing installations upgrading to this feature may also be reported once.
 Current published installers do not contain this feature.
