@@ -12,10 +12,9 @@ and all connected computers on your local network.
 ## Downloads
 
 Lantern 0.1.1 for Windows is available as an
-[installer](https://github.com/snacbot/lantern-releases/releases/download/v0.1.1/Lantern-0.1.1-setup.exe)
-or [portable download](https://github.com/snacbot/lantern-releases/releases/download/v0.1.1/Lantern-0.1.1-portable.zip).
+[installer](https://khaosstudio.com/lantern/download/Lantern-setup.exe).
 Lantern 0.1.5 for Mac is available as a signed, notarized
-[DMG preview](https://github.com/snacbot/lantern-releases/releases/download/mac-v0.1.5/Lantern-0.1.5.dmg).
+[DMG preview](https://khaosstudio.com/lantern/download/Lantern.dmg).
 See [Mac preview notes and compatibility limits](https://github.com/snacbot/lantern-releases/releases/tag/mac-v0.1.5).
 
 
