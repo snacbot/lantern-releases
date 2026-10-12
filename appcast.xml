@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Lantern</title>
+        <item>
+            <title>Lantern for Mac 0.1.5 — Public preview</title>
+            <pubDate>Sun, 11 Oct 2026 19:54:46 -0500</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.1.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Lantern for Mac 0.1.5 — Public preview
+
+The first public Mac download is now available. This preview is signed by Khaos Studios LLC, notarized by Apple, and packaged as a universal DMG.
+
+## Included
+
+- Brightness controls for individual displays, your Mac and connected computers.
+- Saved presets, keyboard shortcuts and optional paired phone control.
+- Incoming LAN brightness control stays off until you opt in on a trusted network.
+- Updates check at launch and every 15 minutes while Lantern runs. Verified updates download, install and restart Lantern automatically, with no update opt-out setting. Active display tests restore their screens before an update restart.
+- Existing settings and computer identity are preserved. Older update opt-outs and skipped versions are cleared on startup.
+
+## Install
+
+Open `Lantern-0.1.5.dmg`, drag Lantern into Applications, then open it from Applications. Older development builds or clients with update checks disabled require this manual installation.
+
+Built for macOS 13 or later, Apple Silicon and Intel. Native checks have run on the release Mac running macOS 27. Older macOS versions, Intel Macs, another Mac, sleep/wake, dock replug, fullscreen/Spaces, mirroring, clamshell and login/update restart behavior still need broader device validation. This is a public preview, not a claim that every monitor or dock has passed compatibility testing.
+
+External hardware DDC control requires Apple Silicon and a compatible connection. Intel external displays and DisplayLink can use software dimming. Software dimming darkens the picture while Lantern runs; it does not switch off the physical backlight.
+
+Restore local brightness with **Control + Option + Command + R** or the restore button. Experimental display power tests remain separate from ordinary brightness controls.
+
+Report issues at https://github.com/snacbot/lantern-releases/issues with your macOS version, monitor and dock details. Do not include private computer names, pairing keys or credentials.
+]]></description>
+            <enclosure url="https://github.com/snacbot/lantern-releases/releases/download/mac-v0.1.5/Lantern-0.1.5.dmg" length="4115684" type="application/octet-stream" sparkle:edSignature="YY1592N6LnEjaRH9KLA4CkKUGeTswBOhKPdtAkXBi8j0AWcLYDFlZEc7LE+rkn23nW0LpcEV2vVo0bRgh43lDQ=="/>
+        </item>
+    </channel>
+</rss>

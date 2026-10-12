@@ -14,8 +14,10 @@ and all connected computers on your local network.
 Lantern 0.1.1 for Windows is available as an
 [installer](https://github.com/snacbot/lantern-releases/releases/download/v0.1.1/Lantern-0.1.1-setup.exe)
 or [portable download](https://github.com/snacbot/lantern-releases/releases/download/v0.1.1/Lantern-0.1.1-portable.zip).
-Mac public installers are still being prepared. Official downloads appear on the
-[Releases page](https://github.com/snacbot/lantern-releases/releases).
+Lantern 0.1.5 for Mac is available as a signed, notarized
+[DMG preview](https://github.com/snacbot/lantern-releases/releases/download/mac-v0.1.5/Lantern-0.1.5.dmg).
+See [Mac preview notes and compatibility limits](https://github.com/snacbot/lantern-releases/releases/tag/mac-v0.1.5).
+
 
 | App | Platform | Release format |
 | --- | --- | --- |
@@ -52,15 +54,19 @@ Monitor power behavior varies by hardware.
 
 ## Updates
 
-The Mac app includes Sparkle update support with automatic checks every 15 minutes while running, optional
-automatic installation, and a manual **Check for Updates…** button. Public
-updates will become available after the first signed release and update feed are
-published. The Windows app checks official releases manually or automatically every 15 minutes
-while running, with an option to disable automatic checks. Windows supports optional automatic downloads and installation, plus a manual
-**Install update** button. Updates verify signed release metadata and file checksums,
-preserve settings, and restart the app. Signed Windows update assets are included
-in Windows releases starting with 0.1.1. Enable automatic installation in Settings
-to receive updates while Lantern is running.
+Mac 0.1.5 checks for updates at launch and every 15 minutes while running.
+Verified updates download, install and restart Lantern automatically; active
+display tests restore first. There are no update opt-out settings. Older saved
+opt-outs and skipped versions are cleared when 0.1.5 starts. A dedicated Mac
+feed keeps Windows releases independent. The public Mac preview feed is live;
+a new release is installed only when it has a higher build number.
+
+The currently published Windows 0.1.1 has optional automatic checks and
+installation, plus a manual **Install update** button. Enable automatic
+installation in its Settings to receive updates while running. Windows 0.1.2
+introduces required automatic updates, but is not yet a published Windows release.
+Both platforms verify signed update assets, preserve settings and restart to
+apply updates. Protected installation folders may require system authorization.
 
 ## Support Lantern
 
@@ -76,6 +82,11 @@ Both apps include a **Buy Us a Coffee** button in Settings that opens the tip pa
 Lantern shares computer names, display details and brightness state with peers on
 your local network. The current native network protocol is unauthenticated and
 intended for trusted networks. Do not expose it directly to the internet.
+On Mac, incoming LAN brightness control is off by default, including after an
+upgrade. Opt in explicitly in Settings → Network only on a trusted network.
+Discovery and local controls still work while it is off; phone control requires
+its separate opt-in and pairing key. Windows currently retains its existing LAN
+behavior.
 
 Automatic Mac update checks contact the public GitHub release feed and download
 servers. Sparkle system profiling is disabled. Tip payments take place on
