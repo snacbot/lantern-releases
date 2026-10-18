@@ -13,9 +13,9 @@ and all connected computers on your local network.
 
 Lantern 0.1.4 for Windows is available as an
 [installer](https://khaosstudio.com/lantern/download/Lantern-setup.exe).
-Lantern 0.1.5 for Mac is available as a signed, notarized
+Lantern 0.2.0 for Mac is available as a signed, notarized
 [DMG preview](https://khaosstudio.com/lantern/download/Lantern.dmg).
-See [Mac preview notes and compatibility limits](https://github.com/snacbot/lantern-releases/releases/tag/mac-v0.1.5).
+See [Mac preview notes and compatibility limits](https://github.com/snacbot/lantern-releases/releases/tag/mac-v0.2.0).
 
 
 | App | Platform | Release format |
@@ -101,9 +101,13 @@ Please do not post payment details, passwords, or signing credentials in an issu
 ## Upcoming installation reports
 
 Future Mac and Windows releases will automatically send a one-time installation
-report to Khaos Studios’ Discord channel, separately from anonymous usage analytics. It includes the
+report to Khaos Studios’ Discord channel, separately from usage analytics. It includes the
 computer name, approximate state/country, platform, app version and random
 installation ID (the PostHog distinct ID when available). No city, coordinates,
 IP address or LAN node identifier is sent to Discord. No first-launch prompt is shown.
 Existing installations upgrading to this feature may also be reported once.
 Current published installers do not contain this feature.
+
+### Usage analytics in 0.2.0
+
+Usage reporting includes the local account username, persistent random installation UUID, app-session UUID, platform, architecture and app version. Mac adds OS version, locale and time zone. PostHog estimates location from the connection IP, including country, continent, region and potentially approximate city/coordinates; no GPS is requested. Reporting is not anonymous. Disable Share usage analytics in About & Updates to stop future usage events. Existing saved opt-outs remain off. One installation does not necessarily equal one person. Contact support@khaosstudio.com for questions or deletion requests.
