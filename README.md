@@ -27,6 +27,17 @@ These are the build targets. Compatibility testing across the supported systems
 is still in progress. This repository contains public release information and
 download assets; source development is maintained separately.
 
+## Install with Homebrew (Mac)
+
+```sh
+brew install --cask snacbot/tap/lantern
+```
+
+Requires macOS 13 or later on Apple Silicon or Intel. This installs the signed,
+notarized Mac preview and keeps Lantern’s automatic in-app updates enabled.
+Use the full cask name: `brew install --cask lantern` installs an unrelated app.
+Both apps use `Lantern.app`, so they cannot share the same applications folder.
+
 ## What Lantern does
 
 - Adjust a single display, every display on one computer, or your connected computers together.
