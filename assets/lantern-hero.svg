@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title desc">
+<title id="title">Lantern — A little light. A lot more comfort.</title>
+<desc id="desc">Brightness control for Windows and Mac. Three screens with individually adjusted brightness on a dark green background.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1817"/><stop offset="1" stop-color="#142d27"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#31dcab" stop-opacity=".17"/><stop offset="1" stop-color="#31dcab" stop-opacity="0"/></radialGradient>
+  <linearGradient id="screen" x2="1" y2="1"><stop stop-color="#233d37"/><stop offset="1" stop-color="#172823"/></linearGradient>
+</defs>
+<rect width="1280" height="440" rx="24" fill="url(#bg)"/>
+<ellipse cx="1030" cy="210" rx="390" ry="320" fill="url(#glow)"/>
+<rect x="1" y="1" width="1278" height="438" rx="23" fill="none" stroke="#294039"/>
+<g transform="translate(54 48) scale(2.5)" fill="#e8f6ef"><path d="M5.6 4.2 Q5.25 4.2 5.25 3.85 L5.25 2.35 Q5.25 2 5.54528 1.81209 L7.70472 0.43791 Q8 0.25 8.29528 0.43791 L10.45472 1.81209 Q10.75 2 10.75 2.35 L10.75 3.85 Q10.75 4.2 10.4 4.2 L9.6 4.2 Q9.25 4.2 9.25 3.85 L9.25 3.1 Q9.25 2.75 8.96058 2.55319 L8.28942 2.09681 Q8 1.9 7.71058 2.09681 L7.03942 2.55319 Q6.75 2.75 6.75 3.1 L6.75 3.85 Q6.75 4.2 6.4 4.2 Z"/><path d="M4.7267 4.71864 Q5 4.5 5.24749 4.25251 L5.75251 3.74749 Q6 3.5 6.33955 3.58489 L7.66045 3.91511 Q8 4 8.33955 3.91511 L9.66045 3.58489 Q10 3.5 10.24749 3.74749 L10.75251 4.25251 Q11 4.5 11.2733 4.71864 L13.2267 6.28136 Q13.5 6.5 13.15 6.5 L10.35 6.5 Q10 6.5 9.67228 6.37711 L8.32772 5.87289 Q8 5.75 7.67228 5.87289 L6.32772 6.37711 Q6 6.5 5.65 6.5 L2.85 6.5 Q2.5 6.5 2.7733 6.28136 Z"/><path d="M2.56153 6.34455 Q2.5 6 2.85 6 L3.9 6 Q4.25 6 4.2995 6.34648 L5.2005 12.65352 Q5.25 13 4.9 13 L4.1 13 Q3.75 13 3.68847 12.65545 Z"/><path d="M11.7005 6.34648 Q11.75 6 12.1 6 L13.15 6 Q13.5 6 13.43847 6.34455 L12.31153 12.65545 Q12.25 13 11.9 13 L11.1 13 Q10.75 13 10.7995 12.65352 Z"/><path d="M3.62711 12.82772 Q3.75 12.5 4.09167 12.57593 L5.65833 12.92407 Q6 13 6.3473 12.95659 L7.6527 12.79341 Q8 12.75 8.3473 12.79341 L9.6527 12.95659 Q10 13 10.34167 12.92407 L11.90833 12.57593 Q12.25 12.5 12.37289 12.82772 L12.87711 14.17228 Q13 14.5 12.65 14.5 L10.35 14.5 Q10 14.5 9.68695 14.65652 L8.31305 15.34348 Q8 15.5 7.68695 15.34348 L6.31305 14.65652 Q6 14.5 5.65 14.5 L3.35 14.5 Q3 14.5 3.12289 14.17228 Z"/><path fill="#20dca0" d="M8.96159 7.04609 Q9 7 8.97893 7.05618 L8.38428 8.64192 Q8.25 9 8.625 8.925 L9.125 8.825 Q9.5 8.75 9.575 9.125 L9.675 9.625 Q9.75 10 9.62907 10.3628 L9.37772 11.11684 Q9.25 11.5 8.875 11.65 L8.375 11.85 Q8 12 7.625 11.85 L7.06142 11.62457 Q6.75 11.5 6.6 11.2 L6.4 10.8 Q6.25 10.5 6.35607 10.1818 L6.65221 9.29336 Q6.75 9 6.825 9.3 L6.925 9.7 Q7 10 7.13829 9.72341 L7.525 8.95 Q7.75 8.5 8.07209 8.1135 Z"/></g>
+<g font-family="Segoe UI, Arial, sans-serif">
+<text x="112" y="80" fill="#e8f6ef" font-size="32" font-weight="650" letter-spacing="-.8">Lantern</text>
+<text x="56" y="165" fill="#f1f8f4" font-size="50" font-weight="650" letter-spacing="-1.7">A little light.</text>
+<text x="56" y="225" fill="#f1f8f4" font-size="50" font-weight="650" letter-spacing="-1.7">A lot more comfort.</text>
+<text x="58" y="274" fill="#acbfb6" font-size="21">Your screens. Your brightness. One place.</text>
+<rect x="58" y="322" width="167" height="35" rx="17" fill="#20dca0" fill-opacity=".1" stroke="#3b6856"/>
+<text x="141" y="345" fill="#83e6be" font-size="14" text-anchor="middle" letter-spacing="1.4">WINDOWS + MAC</text>
+<text x="58" y="402" fill="#7b998a" font-size="13" letter-spacing="2">BUILT BY KHAOS STUDIOS</text>
+<g stroke="#4c7161" stroke-width="2">
+<rect x="750" y="112" width="218" height="143" rx="13" fill="#101e1a"/>
+<rect x="760" y="122" width="198" height="119" rx="6" fill="url(#screen)"/>
+<path d="M859 256v25m-34 0h68" stroke-linecap="round"/>
+<rect x="930" y="163" width="258" height="169" rx="14" fill="#101e1a"/>
+<rect x="941" y="174" width="236" height="143" rx="6" fill="url(#screen)"/>
+<path d="M1059 332v25m-39 0h78" stroke-linecap="round"/>
+</g>
+<rect x="788" y="197" width="139" height="5" rx="2.5" fill="#39594a"/>
+<rect x="788" y="197" width="89" height="5" rx="2.5" fill="#70dbaf"/>
+<circle cx="877" cy="199.5" r="7" fill="#b8f4d8"/>
+<text x="788" y="178" fill="#b4cdc0" font-size="14">Mac</text>
+<rect x="972" y="266" width="171" height="5" rx="2.5" fill="#39594a"/>
+<rect x="972" y="266" width="131" height="5" rx="2.5" fill="#70dbaf"/>
+<circle cx="1103" cy="268.5" r="7" fill="#b8f4d8"/>
+<text x="972" y="244" fill="#b4cdc0" font-size="14">Windows PC</text>
+</g>
+</svg>

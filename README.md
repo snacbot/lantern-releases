@@ -1,124 +1,108 @@
-# Lantern
+<p align="center">
+  <img src="assets/lantern-hero.svg" alt="Lantern — A little light. A lot more comfort. Brightness control for Windows and Mac." width="100%">
+</p>
 
-**Built by [Khaos Studios](https://khaosstudio.com/)**
+<p align="center">
+  Comfortable brightness for every screen, from your system tray or menu bar.
+  <br>
+  Adjust one display, a whole computer, or your connected computers together.
+</p>
 
-Comfortable screen brightness across your Windows PC and Mac. Lantern lives in
-the system tray or menu bar, with controls for individual displays, each computer,
-and all connected computers on your local network.
+<p align="center">
+  <a href="https://github.com/snacbot/lantern-releases/releases">Release notes</a> &nbsp; · &nbsp;
+  <a href="https://github.com/snacbot/lantern-releases/issues">Get help</a> &nbsp; · &nbsp;
+  <a href="https://buymeacoffee.com/khaosstudios">Buy Me a Coffee</a>
+</p>
 
-[Releases and downloads](https://github.com/snacbot/lantern-releases/releases) ·
-[Support Lantern](#support-lantern)
+## Find your Lantern
 
-## Downloads
+| Windows | Mac · Public preview |
+| :--- | :--- |
+| **[Download for Windows ↗](https://github.com/snacbot/lantern-releases/releases/latest/download/Lantern-setup.exe)** | **[Download for Mac ↗](https://github.com/snacbot/lantern-releases/releases/download/mac-v0.2.0/Lantern.dmg)** |
+| Windows 10 or later · x64 | macOS 13 or later · Apple Silicon & Intel |
+| Run setup, then find Lantern in your system tray. | Open the DMG, drag Lantern to Applications, then open it. |
+| [Windows release notes](https://github.com/snacbot/lantern-releases/releases/latest) | [Mac preview notes](https://github.com/snacbot/lantern-releases/releases/tag/mac-v0.2.0) |
 
-Lantern 0.1.4 for Windows is available as an
-[installer](https://khaosstudio.com/lantern/download/Lantern-setup.exe).
-Lantern 0.2.0 for Mac is available as a signed, notarized
-[DMG preview](https://khaosstudio.com/lantern/download/Lantern.dmg).
-See [Mac preview notes and compatibility limits](https://github.com/snacbot/lantern-releases/releases/tag/mac-v0.2.0).
-
-
-| App | Platform | Release format |
-| --- | --- | --- |
-| Lantern for Windows | Windows 10 or later, x64 | Windows installer |
-| Lantern for Mac | macOS 13 or later, Apple Silicon and Intel | Signed, notarized DMG |
-
-These are the build targets. Compatibility testing across the supported systems
-is still in progress. This repository contains public release information and
-download assets; source development is maintained separately.
-
-## Install with Homebrew (Mac)
+<details>
+<summary><strong>Prefer Homebrew?</strong></summary>
 
 ```sh
 brew install --cask snacbot/tap/lantern
 ```
 
-Requires macOS 13 or later on Apple Silicon or Intel. This installs the signed,
-notarized Mac preview and keeps Lantern’s automatic in-app updates enabled.
-Use the full cask name: `brew install --cask lantern` installs an unrelated app.
-Both apps use `Lantern.app`, so they cannot share the same applications folder.
+Use the full cask name above: `brew install --cask lantern` installs an unrelated app.
+Both apps use `Lantern.app`, so they cannot share an applications folder.
 
-## What Lantern does
+</details>
 
-- Adjust a single display, every display on one computer, or your connected computers together.
-- Combine monitor brightness controls with software dimming where supported.
-- Dim DisplayLink displays even when the dock does not expose a hardware brightness control.
-- Rename, reorder or hide displays, and optionally start Lantern when you sign in.
-- Restore local screen brightness with the recovery shortcut or the restore button.
+## Make every screen feel right
 
-Hardware brightness support depends on the monitor, cable and dock. Mac hardware
-DDC control requires Apple Silicon; Intel external displays can use software dimming.
-Software dimming changes the screen image and requires Lantern to stay running.
-It does not switch off the physical backlight. DisplayLink backlight-off has not
-been verified, and it is not promised as a supported feature.
+| A calmer workspace | Less reaching for controls |
+| :--- | :--- |
+| **Fine-tune each display.** Set brightness individually or adjust a whole group at once. | **Connect your computers.** Bring your Windows PC and Mac into the same local workspace. |
+| **Keep your setup tidy.** Rename, reorder, or hide displays to match your desk. | **Save your favorites.** Use presets and keyboard shortcuts for the brightness you like. |
+| **Dim more displays.** Use software dimming where supported, including DisplayLink setups. | **Get back to full brightness.** Restore your local screens with a button or keyboard shortcut. |
 
-## Recovery shortcuts
+## Small setup. Everyday comfort.
 
-| Platform | Restore local displays to 100% |
-| --- | --- |
-| Windows | **Ctrl + Alt + Home** |
-| Mac | **Control + Option + Command + R** |
+1. **Install Lantern** on the computers you want to control.
+2. **Open the tray or menu bar icon** to find your displays and adjust brightness.
+3. **Connect on a trusted local network** using the same Lantern connection port on each computer.
 
-Experimental display power tests are separate from normal brightness controls.
-Monitor power behavior varies by hardware.
+Hardware brightness depends on your monitor, cable and dock. Software dimming darkens the image while Lantern is running; it does not turn off the physical backlight.
 
-## Updates
+## Good to know
 
-Mac 0.1.5 checks for updates at launch and every 15 minutes while running.
-Verified updates download, install and restart Lantern automatically; active
-display tests restore first. There are no update opt-out settings. Older saved
-opt-outs and skipped versions are cleared when 0.1.5 starts. A dedicated Mac
-feed keeps Windows releases independent. The public Mac preview feed is live;
-a new release is installed only when it has a higher build number.
+<details>
+<summary><strong>Compatibility & the Mac preview</strong></summary>
 
-Windows 0.1.4 requires automatic checks and installation while running. Older
-releases may need their automatic update settings enabled to receive this update.
-Both platforms verify signed update assets, preserve settings and restart to
-apply updates. Protected installation folders may require system authorization.
+Windows targets Windows 10 or later on x64. Mac targets macOS 13 or later on Apple Silicon and Intel and remains a public preview.
 
-## Support Lantern
+Mac external hardware DDC control requires Apple Silicon and a compatible connection. Intel external displays and DisplayLink can use software dimming. Compatibility varies by display and dock; broader testing of older macOS versions, Intel, sleep/wake, hotplug and fullscreen/Spaces remains in progress.
 
-Enjoy using Lantern? An optional tip is a way to thank **Khaos Studios** and support
-continued development. Tips are voluntary.
+Experimental display power tests are separate from everyday brightness controls. DisplayLink backlight-off is not a verified feature.
 
-[Buy Us a Coffee](https://buymeacoffee.com/khaosstudios)
+</details>
 
-Both apps include a **Buy Us a Coffee** button in Settings that opens the tip page.
+<details>
+<summary><strong>Restore brightness quickly</strong></summary>
 
-## Local network and privacy
+| Windows | Mac |
+| :--- | :--- |
+| **Ctrl + Alt + Home** | **Control + Option + Command + R** |
 
-Lantern shares computer names, display details and brightness state with peers on
-your local network. The current native network protocol is unauthenticated and
-intended for trusted networks. Do not expose it directly to the internet.
-On Mac, incoming LAN brightness control is off by default, including after an
-upgrade. Opt in explicitly in Settings → Network only on a trusted network.
-Discovery and local controls still work while it is off; phone control requires
-its separate opt-in and pairing key. Windows currently retains its existing LAN
-behavior.
+Both shortcuts restore local screens to 100%. Current Windows and Mac releases also support shaking your pointer to restore brightness. Change this in **Settings → General**.
 
-Automatic Mac update checks contact the public GitHub release feed and download
-servers. Sparkle system profiling is disabled. Tip payments take place on
-Buy Me a Coffee's website; Lantern does not handle card details.
+</details>
 
-## Reporting a problem
+<details>
+<summary><strong>Automatic updates & upgrading</strong></summary>
 
-Use [the issue tracker](https://github.com/snacbot/lantern-releases/issues) for
-release and compatibility reports. Include your OS version, Lantern version,
-monitor model, and cable/dock or DisplayLink setup. Review screenshots and logs
-for private computer names and addresses before sharing them publicly.
+Current releases download and verify signed updates, preserve settings and restart Lantern to apply them. Windows and Mac receive their own platform updates.
 
-Please do not post payment details, passwords, or signing credentials in an issue.
+If your Windows copy lives in Program Files, run the latest setup once to move to the current user-writable location. Setup needs administrator approval for firewall and protected-file maintenance; ordinary startup and subsequent automatic updates do not. Older updaters may request approval during that transition. Protected Mac installation folders may require system authorization.
 
-## Upcoming installation reports
+</details>
 
-Future Mac and Windows releases will automatically send a one-time installation
-report to Khaos Studios’ Discord channel, separately from usage analytics. It includes the
-computer name, approximate state/country, platform, app version and random
-installation ID (the PostHog distinct ID when available). No city, coordinates,
-IP address or LAN node identifier is sent to Discord. No first-launch prompt is shown.
-Existing installations upgrading to this feature may also be reported once.
-Current published installers do not contain this feature.
+<details>
+<summary><strong>Local network connections</strong></summary>
 
-### Usage analytics in 0.2.0
+Lantern exchanges computer names, display details and brightness state with peers on your local network. Use native LAN control only on a trusted network and never expose it directly to the internet. LAN defaults differ by release; review **Settings → Network** on each computer. Phone control has a separate opt-in and pairing key.
 
-Usage reporting includes the local account username, persistent random installation UUID, app-session UUID, platform, architecture and app version. Mac adds OS version, locale and time zone. PostHog estimates location from the connection IP, including country, continent, region and potentially approximate city/coordinates; no GPS is requested. Reporting is not anonymous. Disable Share usage analytics in About & Updates to stop future usage events. Existing saved opt-outs remain off. One installation does not necessarily equal one person. Contact support@khaosstudio.com for questions or deletion requests.
+Automatic updates contact release and download servers. Payments open on Buy Me a Coffee; Lantern does not handle card details.
+
+</details>
+
+## A little help goes a long way
+
+**Something not quite right?** [Report an issue](https://github.com/snacbot/lantern-releases/issues) with your Lantern and OS versions, monitor model, and cable or dock details. Review screenshots and logs for private computer names, addresses and pairing keys before posting.
+
+**Enjoying Lantern?** [Buy Me a Coffee](https://buymeacoffee.com/khaosstudios) to support continued development. Tips are always optional.
+
+---
+
+<p align="center">
+  Built by <a href="https://khaosstudio.com/"><strong>Khaos Studios</strong></a> · Supported by you.
+  <br>
+  <sub>This repository hosts public downloads, release notes and support. Source development is maintained separately.</sub>
+</p>
